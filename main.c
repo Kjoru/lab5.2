@@ -20,7 +20,7 @@ int main()
     FILE* bin=fopen("data_bin.txt", "w+b");
     if (fp==NULL || out==NULL || bin==NULL)
     {
-        printf("Error, one of the files don't exist");
+        printf("Error");
         exit(0);
     }
 
